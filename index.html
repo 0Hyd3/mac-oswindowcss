@@ -1,0 +1,163 @@
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap');
+              @import url('https://fonts.googleapis.com/css?family=Montserrat:300&display=swap');
+                  @import url('https://fonts.googleapis.com/css?family=Big+Shoulders+Display&display=swap');
+    body {
+      
+      background-image: linear-gradient(to top, #37ecba 0%, #72afd3 100%);
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+            justify-content: center;
+    min-height: 100vh;
+  }
+  img{
+      position: fixed;
+    top: -8%;
+    left: 0%;
+    border-radius: 50px;
+    opacity:0.9;
+    transition: 0.5s;
+  
+     
+  }
+  h1{
+    position: fixed;
+    top: -16.2%;
+    left: 94.1%;
+font-size:20px
+  }
+  .expbtn{
+    background:yellow;
+    position: absolute;
+    text-align:center;
+    border-radius: 5000px;
+    top: 20%;
+    left: 89%;
+    width: 35px;
+    height: 35px;
+    transition: transform .4s;
+      font-size: 30px;
+      color: black;
+      font-family: 'Big Shoulders Display', cursive;
+  }
+  .minbtn{
+    background:lime;
+    position: absolute;
+    text-align:center;
+    border-radius: 5000px;
+    top: 20%;
+    left: 84%;
+    width: 35px;
+    height: 35px;
+    transition: transform .4s;
+      font-size: 30px;
+      color: black;
+      font-family: 'Big Shoulders Display', cursive;
+  }
+ .closebtn{
+    background:red;
+    position: absolute;
+    text-align:center;
+    border-radius: 5000px;
+    top: 20%;
+    left: 94%;
+    width: 35px;
+    height: 35px;
+           transition: transform .4s;
+      font-size: 30px;
+      color: black;
+      font-family: 'Big Shoulders Display', cursive;
+  }
+.closebtn:hover{
+  transform: scale(1.1);
+
+}
+
+.minbtn:hover{
+  transform: scale(1.1);
+
+}
+.expbtn:hover{
+  transform: scale(1.1);
+
+}
+  img, #parent {
+      cursor: pointer;
+      
+  }
+  .card:hover > img{
+      opacity:1;
+         transform: scale(1.4);
+               
+  }
+  .card header {
+      position:absolute;
+      background: #141414;
+    top: -20%;
+    left: 0%;
+   
+      padding: 1px;
+      border-radius:  25px 25px 0px 0px;
+     width: 848px;
+           height: 90px;
+       transition: all .5s;
+      opacity:1;
+  }
+  .card:hover > header{
+    
+      opacity:1;
+           
+          
+              
+  }
+  
+   .card {
+  
+             transition: transform .7s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 25px 25px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    background: white;
+      width: 850px;
+    height: 450px;
+  }
+  .card:hover{
+  
+     transform: scale(1.09)
+  }
+    .centeri{ 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+    }
+    span{
+      
+      position: relative;
+    }
+    
+  </style>
+  <title>Janela</title>
+  <html>
+  <body>
+    <div class="centeri">
+  <div class="card">
+    
+  
+  
+     <header>
+      <div class="expbtn"></div>
+       <div class="closebtn"></div>
+       <div class="minbtn"></div>
+    </div>
+  </div>
+  </body>
+  
+  </html>
+  
